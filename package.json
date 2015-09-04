@@ -1,11 +1,11 @@
 {
-  "name": "react-d3-components",
+  "name": "jive-react-d3-components",
   "version": "0.4.8",
-  "description": "D3 components for React",
+  "description": "Forked version D3 components for React",
   "main": "lib/index.js",
   "repository": {
 	"type": "git",
-	"url": "https://github.com/codesuki/react-d3-components.git"
+	"url": "https://github.com/https://github.com/jivesoftware/react-d3-components/react-d3-components.git"
   },
   "keywords": [
 	"d3",
@@ -15,15 +15,17 @@
 	"chart",
 	"react-component"
   ],
-  "author": "Neri Marschik <marschik_neri@cyberagent.co.jp> (http://www.cyberagent.co.jp)",
+  "author": "Neri Marschik <marschik_neri@cyberagent.co.jp> (http://www.cyberagent.co.jp).  Forked by Randi Thomas <randi.thomas@jivesoftware.com>",
   "license": "MIT",
-  "bugs": {
-	"url": "https://github.com/codesuki/react-d3-components/issues"
+  "homepage": "https://github.com/jivesoftware/react-d3-components",
+    "publishConfig": {
+    "registry": "https://jive.registry.nodejitsu.com"
   },
-  "homepage": "https://github.com/codesuki/react-d3-components",
+  "peerDependencies": {    
+    "react": "^0.13.1"
+  },
   "dependencies": {
-	"d3": "^3.5.3",
-	"react": "^0.13.1"
+	"d3": "^3.5.3"
   },
   "devDependencies": {
 	"babel": "^4.6.4",
